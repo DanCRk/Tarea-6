@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<albums>
+    <album>
+        <artist>TWICE</artist>
+        <title>The Story Begins</title>
+        <songs>6</songs>
+        <year>2015</year>
+        <genre>K-pop</genre>
+    </album>
+    <album>
+        <artist>TWICE</artist>
+        <title>Page Two</title>
+        <songs>7</songs>
+        <year>2016</year>
+        <genre>K-pop</genre>
+    </album>
+    <album>
+        <artist>TWICE</artist>
+        <title>Eyes Wide Open</title>
+        <songs>13</songs>
+        <year>2020</year>
+        <genre>K-pop</genre>
+    </album>
+    <album>
+        <artist>TWICE</artist>
+        <title>Feel Special</title>
+        <songs>8</songs>
+        <year>2019</year>
+        <genre>K-pop</genre>
+    </album>
+    <album>
+        <artist>TWICE</artist>
+        <title>Taste of Love</title>
+        <songs>6</songs>
+        <year>2021</year>
+        <genre>K-pop</genre>
+    </album>
+    <album>
+        <artist>TWICE</artist>
+        <title>Formula Of Love: O+T=3</title>
+        <songs>10</songs>
+        <year>2021</year>
+        <genre>K-pop</genre>
+    </album>
+    <album>
+        <artist>TWICE</artist>
+        <title>ONE SPARK</title>
+        <songs>6</songs>
+        <year>2024</year>
+        <genre>K-pop</genre>
+    </album>
+    <album>
+        <artist>TWICE</artist>
+        <title>MOONLIGHT SUNRISE (The Remixes)</title>
+        <songs>5</songs>
+        <year>2023</year>
+        <genre>K-pop</genre>
+    </album>
+    <album>
+        <artist>TWICE</artist>
+        <title>SET ME FREE (Remixes)</title>
+        <songs>6</songs>
+        <year>2023</year>
+        <genre>K-pop</genre>
+    </album>
+    <album>
+        <artist>TWICE</artist>
+        <title>READY TO BE</title>
+        <songs>6</songs>
+        <year>2023</year>
+        <genre>K-pop</genre>
+    </album>
+    <album>
+        <artist>Enjambre</artist>
+        <title>Noches de Salon</title>
+        <songs>15</songs>
+        <year>2023</year>
+        <genre>Acustico</genre>
+    </album>
+    <album>
+        <artist>Enjambre</artist>
+        <title>sasd</title>
+        <songs>15</songs>
+        <year>2023</year>
+        <genre>Acustico</genre>
+    </album>
+</albums>

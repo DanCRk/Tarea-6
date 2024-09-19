@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Author: Daniel Avila" />
+  <title>Daniel Avila</title>
+  <link rel="shortcut icon" href="img/logoDann.webp" type="image/x-icon" />
+  <link rel="stylesheet" href="res/css/normalize.css" />
+  <link rel="stylesheet" href="res/css/styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.datatables.net/v/bs5/jq-3.7.0/dt-2.1.4/r-3.0.2/datatables.min.css" rel="stylesheet" />
+</head>
+
+<body class="body">
+  <div id="uploadArea" class="upload-area">
+    <div class="upload-area__header">
+      <h1 class="upload-area__title">Sube tu archivo</h1>
+      <p class="upload-area__paragraph">
+        El archivo debe ser
+        <strong class="upload-area__tooltip">
+          XML
+          <span class="upload-area__tooltip-data"></span>
+        </strong>
+      </p>
+    </div>
+    <div id="dropZoon" class="upload-area__drop-zoon drop-zoon">
+      <span class="drop-zoon__icon">
+        <i class="bx bxs-file-image"></i>
+      </span>
+      <p class="drop-zoon__paragraph">
+        Arrastra tu archivo aqui o Click para buscarlo
+      </p>
+      <span id="loadingText" class="drop-zoon__loading-text">Por favor Espere</span>
+      <img src="/res/img/album.jpg" alt="Preview Image" id="previewImage" class="drop-zoon__preview-image"
+        draggable="false" />
+      <input type="file" id="fileInput" class="drop-zoon__file-input" accept=".xml" />
+    </div>
+    <div id="fileDetails" class="upload-area__file-details file-details">
+      <h3 class="file-details__title">Archivo Cargado</h3>
+
+      <div id="uploadedFile" class="uploaded-file">
+        <div class="uploaded-file__icon-container">
+          <i class="bx bxs-file-blank uploaded-file__icon"></i>
+          <span class="uploaded-file__icon-text"></span>
+        </div>
+
+        <div id="uploadedFileInfo" class="uploaded-file__info">
+          <span class="uploaded-file__name">Proejct 1</span>
+          <span class="uploaded-file__counter">0%</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="p-4 m-3 border rounded shadow container-table">
+    <table id="tabla" class="display nowrap table table-hover table-striped table-bordered table-sm">
+      <thead>
+        <tr>
+          <th>Artist</th>
+          <th>Title</th>
+          <th>Songs</th>
+          <th>Year</th>
+          <th>Genre</th>
+        </tr>
+      </thead>
+      <tbody>
+        
+      </tbody>
+    </table>
+  </div>
+
+  <footer class="footer">
+    <div class="contact">
+      <h3>Daniel Avila Montoya - Developer Freelance</h3>
+      <p>dannavila.developer@gmail.com</p>
+    </div>
+  </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.datatables.net/v/bs5/jq-3.7.0/dt-2.1.4/r-3.0.2/datatables.min.js"></script>
+  <script src="res/js/scripts.js"></script>
+</body>
+
+</html>
